@@ -35,7 +35,16 @@ function Color() {
       
         }}>
 
-        <button className='btn-primary' onClick={handleRGBColor}>RGB color</button>
+        <button 
+          className='btn-primary' 
+          onClick={handleRGBColor}
+          style={{
+            padding:'10px',
+            backgroundColor:'#3e7c55ff',
+            color:'while'
+            }}
+          >
+          RGB color</button>
         <button className='btn-primary' onClick={handleHEXColor}>Hex color</button>
       </div>
       
